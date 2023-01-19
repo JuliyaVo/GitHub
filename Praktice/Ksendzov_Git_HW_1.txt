@@ -1,0 +1,335 @@
+
+
+# HW_1 Git  
+
+Note! 
+> For Windows: Before do the tasks, you must installed Gitbash.
+> Created an account in Github
+
+Instruction how to send completed tasks for check.
+> Create the file like in Terminal Homework_1.
+> Place the scenario into the file.
+> Wright the command to the every action.
+> The file send to the mentors for check.
+
+ 
+JSON
+#####Task 1. Create the repository named "JSON".
+> - New repository - JSON - Create repository
+Result: https://github.com/JuliyaVo/JSON.git
+
+#####Task 2. Clone the "JSON" repository to your local computer.
+> - git clone [link to the repository] https://github.com/JuliyaVo/JSON.git
+
+#####Task 3. In the local "JSON" repository (on the computer) create the file “new.json”.
+> - touch new.json
+
+#####Task 4. Add file to your GitHub.
+> - git add new.json
+
+#####Task 5. Commit the file in your GitHub.
+> - git commit -m "add new.json"
+
+#####Task 6. Send the file to the remote repository in your GitHub account.
+> - git push
+
+#####Task 7. Edit the “new.json” file - write the personal info (Full name, number of home pets, your expected salary). All data fill in the JSON format.
+> - vim new.json - press I  
+        {
+          "firstname": "Julia",
+          "lastname": "Vo",
+          "age": "39",
+          "pets": "0",
+          "expectedSalary": "1536"
+        }
+    ESQ -:wq
+
+#####Task 8. Send the changes to the remote repository.
+> -git add new.json
+   git commit -m “change file”
+   git push
+
+
+#####Task 9. Create file preferences.json
+> - cat > preferences.json
+
+#####Task 10. Add into the preferences.json file info about your preferences (favorite movie, favorite soap opera, favorite food, favorite season, the country what you want to visit). All data fill in the JSON format.
+> -  
+      {
+        "favoriteFilm": "vanilla_sky",
+        "favoriteShow": "vanilla_sky",
+        "favoriteFood": "sweets",
+        "favoriteSeason": "spring",
+        "favoriteCountry": "Australia"
+      }
+
+#####Task 11. Create file skills.json and add the info about skills that will be learned in this course. All data fill in the JSON format.
+> - cat > skills.json
+       {
+        "tools": [
+        "git_bash",
+        "git_hub",
+        "postman",
+        "d_beaver",
+        "charles_proxy",
+        "fiddler",
+        "j_meter",
+        "dev_tools"
+        "android_studio"
+       ]
+        "skills": [
+        "create_check_list",
+        "create_test_case",
+        "create_bug_report",
+        "sql_crud",
+        "sql_join"
+        "python",
+        "js"      
+       ]
+       }  
+
+#####Task 12. Send both files in the same time to the remote repository.
+
+> - git add .
+    git commit -m “add files”
+    git push
+
+#####Task 13. In the web GitHub create the file bug_report.json.
+> - https://github.com/JuliyaVo/JSON - Add file - Create new file - bug_report.json
+Result: https://github.com/JuliyaVo/JSON/blob/2ae25fe6bb2bb04f5c1d59ebf1243f9a9d974593/bug_report.json
+
+#####Task 14. Make "Commit changes" (save the changes in the GitHub).
+> - Wright "add file bug_report.json" in the "Commit changes" section - "Commit changes" button 
+
+#####Task 15. Modify the  bug_report.json file in your GitHub: add bug report data in JSON format.
+> - Open file bug_report.json in the GitHub repository - Edit this file
+
+{ 
+  "Type": "bug",
+  "bugID": {
+      "IDnumber": "123",
+      "name": "CART - Unable to add new item to my cart",
+      "reporter": "Julia Vo",
+      "submitData": "01/12/2022"
+     },
+"summery": "When my cart contains one item, I am unable to add a second item via the add to cart button on a product page",
+"severity": "major",
+"priority": "high",
+"environment": "macOS, 10.12.0&chrome 53",
+"steps_to_reproduce": "add one item to cart>go to product abc via the search bar>add new item to cart via 'add to cart' button",
+"actual_result": "the cart contains only 1 item",     
+"expected_result": "the cart should contains 2 item",
+"assigned_to": "Mustafa Singh" 
+}
+
+#####Task 16. Save the changes in the your GitHub repository.
+> - Wright "change file bug_report.json" in the "Commit changes" section - "Commit changes" button 
+
+#####Task 17. Synchronize the remote and local repository.
+> - git pull
+
+
+XML
+#####Task 1. Create the remote repository named "XML".
+> - https://github.com - JuliyaVo - New repository - Repository name: XML - Create repository
+Result: https://github.com/JuliyaVo/XML.git
+
+#####Task 2. Clone "XML" repository to your local computer.
+> - git clone https://github.com/JuliyaVo/XML.git
+
+#####Task 3. In the local "XML" repository (on the computer) create the file “new.xml”.
+> - touch new.xml
+
+#####Task 4. Add file to your GitHub.
+> - git add new.xml
+
+#####Task 5. Commit the file in your GitHub.
+> - git commit -m "add new.xml"
+
+#####Task 6. Send the file to the remote repository in your GitHub account.
+> - git push
+
+
+#####Task 7. Edit the “new.xml” file - write the personal info (Full name, age, number of home pets, your expected salary). All data fill in the XML format.
+> - vim new.xml - press I  
+       <?xml version="1.0" encoding="UTF-8"?>
+       <userInfo>
+           <userName>Juliya Vo</userName>
+           <userAge>39</userAge>
+           <numberOfPets>0</numberOfPets>
+           <expectedSalary>1536</expectedSalary>
+       </userInfo>
+    ESC :wq
+
+#####Task 8. Send the changes to the remote repository.
+> -git add new.xml
+   git commit -m “change file”
+   git push
+#####Task 9. Create file preferences.xml
+> - cat > preferences.xml
+
+#####Task 10. Add into the preferences.xml file info about your preferences (favorite movie, favorite soap opera, favorite food, favorite season, the country what you want to visit). All data fill in the XML format.
+> -  
+       <?xml version="1.0" encoding="UTF-8"?>
+       <userFavorite>
+          <film>vanilla sky</film>
+          <show>vanilla sky</show>          
+          <food>sweets</food>
+          <season>spring</season>
+          <countryToVisit>Australia</countryToVisit>
+        </userFavorite>
+
+#####Task 11. Create file sklls.xml and add the info about skills that will be learned in this course. All data fill in the XML format.
+> - cat > skills.json
+       <?xml version="1.0" encoding="UTF-8"?>
+       <userSkills>
+         <category>Hard Skills</category>
+             <name>SQA_Methodologies</name>
+             <name>Create_check_list</name>
+             <name>Create_test_case</name>
+             <name>Create_bug_report</name>
+             <name>git_bash</name>
+             <name>sql_crud</name>
+             <name>sql_join</name>
+             <name>python</name>
+             <name>js</name>
+         <category>Tools</category>
+             <name>git_bash</name>
+             <name>git_hub</name>
+             <name>postman</name>
+             <name>d_beaver</name>
+             <name>charles_proxy</name>
+             <name>fiddler</name>
+             <name>j_meter</name>
+             <name>dev_tools</name>
+             <name>android_studio</name> 
+        </userSkills>
+
+####Task 12. Create commit in one line.
+> - git add . && git commit -m “add files”
+
+#####Task 13. Send both files to the remote repository.
+> - git push
+
+#####Task 14. In the web GitHub create the file bug_report.xml.
+> - https://github.com/JuliyaVo/XML - Add file - Create new file - bug_report.xml
+Result: https://github.com/JuliyaVo/XML/blob/c7ac4586f514995cb530b4d1f0edcc3a01416980/bug_report.xml
+
+#####Task 15. Make "Commit changes" (save the changes in the GitHub).
+> - Wright "add file bug_report.xml" in the "Commit changes" section - "Commit changes" button
+
+#####Task 16. Modify the bug_report.xml file in your GitHub: add bug report data in XML format.
+> - Open file bug_report.xml in the GitHub repository - Edit this file
+
+    <?xml version="1.0" encoding="UTF-8"?>
+    <Bug>
+        <IDnumber>123</IDnumber>
+        <name>CART - Unable to add new item to my cart</name>
+        <reporter>JuliyaVo</reporter>
+        <date>01/12/2022</date>
+    <summery>When my cart contains one item, I am unable to add a second item via the add to cart button on a prodact page</summery>
+    <severity>Major</severity>
+    <priority>High</priority>
+    <environment>macOS_10.12.0; chrome 53</environment>
+    <steps_to_reproduce>Add one item to cart - go to product abc via the search bar - add new item to cart via 'add to cart'  
+     button"<steps_to_reproduce>
+    <actual_result>The cart contains only 1 item</actual_result>     
+    <expected_result>The cart chould contains 2 item</expected_result>
+    <assignedTo>Mustafa Singh</assignedTo>
+    </Bug>
+
+#####Task 17. Save the changes in the your GitHub repository.
+> - Wright "change file bug_report.xml" in the "Commit changes" section - "Commit changes" button 
+
+#####Task 17. Synchronize the remote and local XML repository.
+> - git pull
+
+TXT
+
+#####Task 1. Create the remote repository named "XML".
+> - https://github.com - JuliyaVo - New repository - Repository name: TXT - Create repository
+Result: https://github.com/JuliyaVo/TXT.git
+
+#####Task 2. Clone "TXT" repository to your local computer.
+> - git clone https://github.com/JuliyaVo/TXT.git
+
+#####Task 3. In the local "TXT" repository (on the computer) create the file “new.txt”.
+> - touch new.txt
+
+#####Task 4. Add file to your GitHub.
+> - git add new.txt
+
+#####Task 5. Commit the file in your GitHub.
+> - git commit -m "add new.txt"
+
+#####Task 6. Send the file to the remote repository in your GitHub account.
+> - git push
+
+#####Task 7. Edit the “new.txt” file - write the personal info (Full name, age, number of home pets, your expected salary). All data fill in the TXT format.
+> - vim new.txt - press I  
+       + My name is Juliya Vo
+       + I am 39
+       + I don't have any pets
+       + My salary expectations are about 1536.
+    ESC :wq
+
+#####Task 8. Send the changes to the remote repository.
+> -git add new.txt
+   git commit -m “change file”
+   git push
+#####Task 9. Create file preferences.txt
+> - cat > preferences.txt
+
+#####Task 10. Add into the preferences.txt file info about your preferences (favorite movie, favorite soap opera, favorite food, favorite season, the country what you want to visit). All data fill in the TXT format.
+> -  
+      + My favorite film is "Vanilla Sky"
+      + My favorite show is "Vanilla Sky"
+      + My favorite food is sweets.
+      + My favorite season is spring.
+      + The country I would like to visit is Australia.
+
+#####Task 11. Create file sklls.txt and add the info about skills that will be learned in this course. All data fill in the TXT format.
+> - cat >  skills.txt
+       There are hard skills and soft skills.
+       -postman
+       -git_bash/terminal
+       -git_hyb
+       -software testing
+
+####Task 12. Create commit in one line.
+> - git add . && git commit -m “add files”
+
+#####Task 13. Send both files to the remote repository.
+> - git push
+
+#####Task 14. In the web GitHub create the file bug_report.txt.
+> - https://github.com/JuliyaVo/XML - Add file - Create new file - bug_report.txt
+Result: https://github.com/JuliyaVo/TXT/blob/c31e3ee22350e7df23bbe7ff47e8ad06b5fc2901/bug_report.txt
+
+#####Task 15. Make "Commit changes" (save the changes in the GitHub).
+> - Wright "add file bug_report.txt" in the "Commit changes" section - "Commit changes" button
+
+#####Task 16. Modify the bug_report.txt file in your GitHub: add bug report data in TXT format.
+> - Open file bug_report.xml in the GitHub repository - Edit this file
+     **BugID**
+        + IDnumber: 123
+        + Name: CART - Unable to add new item to my cart
+        + Reporter: JuliyaVo
+        + Date:01/12/2022
+
+
+**Summery:** When my cart contains one item, I am unable to add a second item via the add to cart button on a prodact page.
+*Severity: Major
+*Priority: High
+*Steps to reproduce: Add one item to cart>go to product abc via the search bar>add new item to cart via "add to cart" button"
+*Actual result:The cart contains only 1 item      
+*Expected result: The cart chould contains 2 item
+*Assigned to: Mustafa Singh
+
+#####Task 17. Save the changes in the your GitHub repository.
+> - Wright "change file bug_report.txt" in the "Commit changes" section - "Commit changes" button 
+
+#####Task 17. Synchronize the remote and local TXT repository.
+> - git pull
+
+WELL DONE! WELL DONE! WELL DONE! WELL DONE! WELL DONE! WELL DONE! WELL DONE! WELL DONE! WELL DONE! WELL DONE! WELL DONE! WELL DONE! WELL DONE! WELL DONE! WELL DONE! WELL DONE! WELL DONE! WELL DONE! WELL DONE! WELL DONE! 
