@@ -1,6 +1,4 @@
-
-
-# HW_1 Git  
+#𝐆𝐢𝐭_𝐇𝐖_𝟏
 
 Note! 
 > For Windows: Before do the tasks, you must installed Gitbash.
@@ -12,8 +10,7 @@ Instruction how to send completed tasks for check.
 > Wright the command to the every action.
 > The file send to the mentors for check.
 
- 
-JSON
+𝗝𝗦𝗢𝗡
 #####Task 1. Create the repository named "JSON".
 > - New repository - JSON - Create repository
 Result: https://github.com/JuliyaVo/JSON.git
@@ -48,7 +45,6 @@ Result: https://github.com/JuliyaVo/JSON.git
 > -git add new.json
    git commit -m “change file”
    git push
-
 
 #####Task 9. Create file preferences.json
 > - cat > preferences.json
@@ -128,8 +124,8 @@ Result: https://github.com/JuliyaVo/JSON/blob/2ae25fe6bb2bb04f5c1d59ebf1243f9a9d
 #####Task 17. Synchronize the remote and local repository.
 > - git pull
 
+𝗫𝗠𝗟
 
-XML
 #####Task 1. Create the remote repository named "XML".
 > - https://github.com - JuliyaVo - New repository - Repository name: XML - Create repository
 Result: https://github.com/JuliyaVo/XML.git
@@ -148,7 +144,6 @@ Result: https://github.com/JuliyaVo/XML.git
 
 #####Task 6. Send the file to the remote repository in your GitHub account.
 > - git push
-
 
 #####Task 7. Edit the “new.xml” file - write the personal info (Full name, age, number of home pets, your expected salary). All data fill in the XML format.
 > - vim new.xml - press I  
@@ -244,7 +239,7 @@ Result: https://github.com/JuliyaVo/XML/blob/c7ac4586f514995cb530b4d1f0edcc3a014
 #####Task 17. Synchronize the remote and local XML repository.
 > - git pull
 
-TXT
+𝗧𝗫𝗧
 
 #####Task 1. Create the remote repository named "XML".
 > - https://github.com - JuliyaVo - New repository - Repository name: TXT - Create repository
@@ -311,12 +306,11 @@ Result: https://github.com/JuliyaVo/TXT/blob/c31e3ee22350e7df23bbe7ff47e8ad06b5f
 
 #####Task 16. Modify the bug_report.txt file in your GitHub: add bug report data in TXT format.
 > - Open file bug_report.xml in the GitHub repository - Edit this file
-     **BugID**
+**BugID**
         + IDnumber: 123
         + Name: CART - Unable to add new item to my cart
         + Reporter: JuliyaVo
         + Date:01/12/2022
-
 
 **Summery:** When my cart contains one item, I am unable to add a second item via the add to cart button on a prodact page.
 *Severity: Major
@@ -332,4 +326,4 @@ Result: https://github.com/JuliyaVo/TXT/blob/c31e3ee22350e7df23bbe7ff47e8ad06b5f
 #####Task 17. Synchronize the remote and local TXT repository.
 > - git pull
 
-WELL DONE! WELL DONE! WELL DONE! WELL DONE! WELL DONE! WELL DONE! WELL DONE! WELL DONE! WELL DONE! WELL DONE! WELL DONE! WELL DONE! WELL DONE! WELL DONE! WELL DONE! WELL DONE! WELL DONE! WELL DONE! WELL DONE! WELL DONE! 
+𝐖𝐄𝐋𝐋 𝐃𝐎𝐍𝐄! 𝐖𝐄𝐋𝐋 𝐃𝐎𝐍𝐄! 𝐖𝐄𝐋𝐋 𝐃𝐎𝐍𝐄! 𝐖𝐄𝐋𝐋 𝐃𝐎𝐍𝐄! 𝐖𝐄𝐋𝐋 𝐃𝐎𝐍𝐄! 𝐖𝐄𝐋𝐋 𝐃𝐎𝐍𝐄! 𝐖𝐄𝐋𝐋 𝐃𝐎𝐍𝐄! 𝐖𝐄𝐋𝐋 𝐃𝐎𝐍𝐄! 𝐖𝐄𝐋𝐋 𝐃𝐎𝐍𝐄! 𝐖𝐄𝐋𝐋 𝐃𝐎𝐍𝐄! 𝐖𝐄𝐋𝐋 𝐃𝐎𝐍𝐄! 𝐖𝐄𝐋𝐋 𝐃𝐎𝐍𝐄! 
