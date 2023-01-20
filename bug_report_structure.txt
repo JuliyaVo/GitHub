@@ -1,0 +1,11 @@
++ ID
++ Title
++ Severity
++ Priority
++ Description
++ Environment
++ Precondition
++ Steps to reproduce
++ Expected result
++ Actual result
++ Attachments (screenshots, videos, text)
