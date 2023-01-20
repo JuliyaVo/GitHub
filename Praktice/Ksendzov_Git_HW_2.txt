@@ -1,0 +1,89 @@
+#𝐆𝐢𝐭_𝐇𝐖_𝟐_𝐁𝐫𝐚𝐧𝐜𝐡𝐞𝐬
+
+1. In your local repository create the branches for:
+- Postman
+- Jmeter
+- CheckLists
+- Bug Reports
+- SQL
+- Charles
+- Mobile testing
+> - git branch postman
+    git branch jmeter
+    git branch check_lists
+    git branch bug_reports
+    git branch sql
+    git branch charles
+    git branch mobile_testing
+
+2. Push all branches to your remote repository.
+> - git push -u origin --all
+
+3. In the Bug Reports branch create the txt doc with most common structure of bug report.
+> - git checkout bug_reports // 𝘨𝘰 𝘵𝘰 𝘵𝘩𝘦 𝘣𝘳𝘢𝘯𝘤𝘩
+    cat > bug_report_structure.txt // 𝘤𝘳𝘦𝘢𝘵𝘦 𝘵𝘩𝘦 𝘵𝘹𝘵 𝘥𝘰𝘤
++ ID
++ Title
++ Severity
++ Priority
++ Description
++ Environment
++ Precondition
++ Steps to reproduce
++ Expected result
++ Actual result
++ Attachments (screenshots, videos, text)
+     CTRL C
+
+4. Push this file to the remote repository.
+> - git add bug_report_structure.txt
+    git commit -m “add bug_report_structure.txt”
+    git push
+
+5. Merge the Bug Reports branch into the Main.
+> - git checkout main // 𝘨𝘰 𝘵𝘰 𝘵𝘩𝘦 𝘣𝘳𝘢𝘯𝘤𝘩
+    git merge bag_reports
+    
+6. Push main to the remote repository.
+> - git push 
+
+7. In the CheckLists branch create the txt doc with most common structure of check_list.
+> - git checkout check_lists && cat > check_list_structure.txt
+
+    + Info Section: project name, build, environment, date, tester
+    + ID
+    + Title
+    + Type
+    + Inputs Data
+    + Expected result
+    + Status
+    + Comments
+   CTRL C
+8. Push this file to the remote repository.
+> - git add check_list_structure.txt
+    git commit -m "add check_list_structure.txt"
+    git push
+    
+9. Make Pull Request the CheckLists branch into the Main in your remote repository.
+> - Pull requests - base: main-compare:check_lists - Create pull requests
+
+10. Synchronize your local and remote Main.
+> - git checkout main
+    git pull
+    
+    
+𝐖𝐄𝐋𝐋 𝐃𝐎𝐍𝐄!𝐖𝐄𝐋𝐋 𝐃𝐎𝐍𝐄!𝐖𝐄𝐋𝐋 𝐃𝐎𝐍𝐄!𝐖𝐄𝐋𝐋 𝐃𝐎𝐍𝐄!𝐖𝐄𝐋𝐋 𝐃𝐎𝐍𝐄!𝐖𝐄𝐋𝐋 𝐃𝐎𝐍𝐄!𝐖𝐄𝐋𝐋 𝐃𝐎𝐍𝐄!𝐖𝐄𝐋𝐋 𝐃𝐎𝐍𝐄!𝐖𝐄𝐋𝐋 𝐃𝐎𝐍𝐄!𝐖𝐄𝐋𝐋 𝐃𝐎𝐍𝐄!𝐖𝐄𝐋𝐋 𝐃𝐎𝐍𝐄!𝐖𝐄𝐋𝐋 𝐃𝐎𝐍𝐄!𝐖𝐄𝐋𝐋 𝐃𝐎𝐍𝐄!𝐖𝐄𝐋𝐋 𝐃𝐎𝐍𝐄!𝐖𝐄𝐋𝐋 𝐃𝐎𝐍𝐄!𝐖𝐄𝐋𝐋 𝐃𝐎𝐍𝐄!𝐖𝐄𝐋𝐋 𝐃𝐎𝐍𝐄!𝐖𝐄𝐋𝐋 𝐃𝐎𝐍𝐄!𝐖𝐄𝐋𝐋 𝐃𝐎𝐍𝐄!𝐖𝐄𝐋𝐋 𝐃𝐎𝐍𝐄!𝐖𝐄𝐋𝐋 𝐃𝐎𝐍𝐄!𝐖𝐄𝐋𝐋 𝐃𝐎𝐍𝐄!𝐖𝐄𝐋𝐋 𝐃𝐎𝐍𝐄!
+    
+
+ 
+
+
+
+
+
+
+
+
+
+
+
