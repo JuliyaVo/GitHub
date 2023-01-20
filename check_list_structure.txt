@@ -1,0 +1,8 @@
++ Info Section: project name, build, environment, date, tester
+    + ID
+    + Title
+    + Type
+    + Inputs Data
+    + Expected result
+    + Status
+    + Comments
