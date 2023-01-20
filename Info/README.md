@@ -7,7 +7,11 @@
          <img src="https://cdn-icons-png.flaticon.com/128/556/556690.png" width=10 heigh=10>
          <a href="https://git-scm.com/doc">Git Documentation</a>
       </p>
-      <p>
+     <p>
+         <img src="https://cdn-icons-png.flaticon.com/128/556/556690.png" width=10 heigh=10>
+         <a href="https://opensource.com/article/18/1/step-step-guide-git">A step-by-step guide to Git</a>
+      </p>
+     <p>
          <img src="https://cdn-icons-png.flaticon.com/128/556/556690.png" width=10 heigh=10>
          <a href="https://www.atlassian.com/git">Getting Git Right</a>
       </p>
