@@ -42,7 +42,7 @@
 
 5. Merge the Bug Reports branch into the Main.
 > - git checkout main // 𝘨𝘰 𝘵𝘰 𝘵𝘩𝘦 𝘣𝘳𝘢𝘯𝘤𝘩
-    git merge bag_reports
+    git merge bug_reports
     
 6. Push main to the remote repository.
 > - git push 
