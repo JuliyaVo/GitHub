@@ -21,7 +21,7 @@
       </p>
    <p>
         <a href="https://www.youtube.com/watch?v=e7BufAVwDiM">
-        <img src="https://media.giphy.com/media/FJECc6wIC46C3rzqP8/giphy.gif" title="Full course Git & GitHub for beginners [4-hours]" alt="" width=1000 heigh=1000>
+        <img src="https://media.giphy.com/media/FJECc6wIC46C3rzqP8/giphy.gif" title="Full course Git & GitHub for beginners [4-hours]" alt="" width=500 heigh=500>
         </a>
          </p>
    </ol>
